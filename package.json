@@ -1,0 +1,18 @@
+{
+  "name": "photocapture",
+  "productName": "PhotoCapture",
+  "version": "1.0.0",
+  "description": "Photocapture App",
+  "keywords": [],
+  "author": "Weerayut Teja",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "rimraf PhotoCapture-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=app"
+  },
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1",
+    "rimraf": "^2.6.3"
+  }
+}
